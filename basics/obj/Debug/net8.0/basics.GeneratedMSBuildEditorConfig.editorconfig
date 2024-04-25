@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = basics
 build_property.RootNamespace = basics
-build_property.ProjectDir = c:\Users\Metehan Dündar\Documents\GitHub\.Net-Course-Lessons\basics\
+build_property.ProjectDir = C:\Users\Metehan Dündar\Documents\GitHub\.Net-Course-Lessons\basics\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Metehan Dündar\Documents\GitHub\.Net-Course-Lessons\basics
+build_property.MSBuildProjectDirectory = C:\Users\Metehan Dündar\Documents\GitHub\.Net-Course-Lessons\basics
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Course/CourseList.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Course/CourseList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Course/index.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Course/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Home/Contact.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Home/Index.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/Error.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/_ViewImports.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/_ViewStart.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/_Layout.cshtml]
+[C:/Users/Metehan Dündar/Documents/GitHub/.Net-Course-Lessons/basics/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xd2ekzr3ws
