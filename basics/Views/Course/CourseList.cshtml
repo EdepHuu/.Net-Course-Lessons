@@ -1,3 +1,5 @@
+@model List<Course>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +9,24 @@
 </head>
 <body>
     <h1>LIST PAGE</h1>
+
+    @foreach(var kurs in Model)
+    {
+        <div>
+            <h2>
+                @kurs.Title
+            </h2>
+            <p>
+                @kurs.ID
+            </p>
+        </div>
+    }
+
+    <!-- Aşağıda tek tek yazmak yerine yukarıdaki gibi for döngüsü içinde yazbiliriz.
+    @Model[0].Title <br>
+    @Model[1].Title <br>
+    @Model[2].Title 
+    -->
+    
 </body>
 </html>

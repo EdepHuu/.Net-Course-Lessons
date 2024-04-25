@@ -4,5 +4,7 @@ namespace basics.Models
         {
             public int ID { get; set; }
             public string? Title { get; set; } //title'ın "null" olma ihtimaline karşı "?" ekledik
+        
+            public string? Image { get; set; }
         }
 }

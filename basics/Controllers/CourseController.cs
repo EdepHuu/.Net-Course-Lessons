@@ -9,7 +9,7 @@ public class CourseController : Controller
     public IActionResult Index()
     {
         var kurs = new Course();
-        
+
         kurs.ID = 1;
         kurs.Title = "METEHAN";
         return View(kurs);
@@ -17,6 +17,12 @@ public class CourseController : Controller
 
     public IActionResult List()
     {
-        return View("CourseList");
+        var kurslar = new List<Course>()
+        {
+            new Course() {ID = 1 ,Title = "Metehan"},
+            new Course() {ID = 2 ,Title = "Betüş"},
+            new Course() {ID = 3 ,Title = "Tufan"}
+        };
+        return View("CourseList", kurslar);
     }
 }
