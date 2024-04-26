@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Metehan Dündar\\Documents\\GitHub\\.Net-Course-Lessons\\basics\\wwwroot\\img\\1.JPG",
+      "PackagePath": "staticwebassets\\img\\1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Metehan Dündar\\Documents\\GitHub\\.Net-Course-Lessons\\basics\\wwwroot\\img\\2.JPG",
+      "PackagePath": "staticwebassets\\img\\2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Metehan Dündar\\Documents\\GitHub\\.Net-Course-Lessons\\basics\\wwwroot\\img\\3.JPG",
+      "PackagePath": "staticwebassets\\img\\3.JPG"
+    },
+    {
       "Id": "C:\\Users\\Metehan Dündar\\Documents\\GitHub\\.Net-Course-Lessons\\basics\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
