@@ -1,54 +1,17 @@
 @model List<Course>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-            <div class="container">
-                <a class ="navbar-brand" href="#">CourseApp</a>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item" >
-                        <a href="#" class = "nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class = "nav-link">Kurslar</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="container mt-3">
-        <main>
-            
-            @foreach(var kurs in Model)
-            {
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="~/img/@kurs.Image" class = "img-fluid rounded-start" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">@kurs.Title</h5>
-                            </div>
-                        </div>
+    @foreach(var kurs in Model)
+    {
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/img/@kurs.Image" class = "img-fluid rounded-start" alt="">
                 </div>
-            </div>
-            } 
-        </main>
-
-    <!-- Aşağıda tek tek yazmak yerine yukarıdaki gibi for döngüsü içinde yazbiliriz.
-    @Model[0].Title <br>
-    @Model[1].Title <br>
-    @Model[2].Title 
-    -->
-    
-</body>
-</html>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@kurs.Title</h5>
+                    </div>
+                </div>
+        </div>
+    </div>
+    } 
