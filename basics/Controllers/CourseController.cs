@@ -16,14 +16,22 @@ public class CourseController : Controller
         return View(kurs);
     }
 
+    public IActionResult Details(int? id)
+    {
+        
+        if(id==null)
+        {
+            return RedirectToAction("List","Course");
+        }
+
+        var kurs = Repository.GetByID(id);
+
+        return View(kurs);
+    }
+
     public IActionResult List()
     {
-        var kurslar = new List<Course>()
-        {
-            new Course() {ID = 1 ,Title = "Metehan", Image="1.JPG"},
-            new Course() {ID = 2 ,Title = "Betüş", Image="2.JPG"},
-            new Course() {ID = 3 ,Title = "Askim", Image="3.JPG"}
-        };
-        return View("CourseList", kurslar);
+        return View("CourseList", Repository.courses);
     }
+
 }
