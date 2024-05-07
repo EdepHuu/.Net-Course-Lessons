@@ -1,5 +1,21 @@
-﻿<h1>HOME INDEX PAGE</h1>
+﻿@model List<Course>
 
 @section Header{
     @await Html.PartialAsync("_Header")
 }    
+
+<div class="row">
+    @foreach(var kurs in Model)
+    {
+        <div class="col-3">
+            <div class="card">
+                <img src="~/img/@kurs.Image" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">@kurs.Title</h5>
+                    <a class = "btn btn-primary" asp-controller="Course" asp-action="Details" asp-route-id = "@kurs.ID">Detay</a>
+            </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

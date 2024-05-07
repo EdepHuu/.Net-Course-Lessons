@@ -1,4 +1,23 @@
 @model Course 
 
-@await Html.PartialAsync("_course", @Model)
 
+    <div class="row">
+        <div class="col-md-4">
+            <img src="~/img/@Model.Image" class = "img-fluid rounded" alt="">
+        </div>
+        <div class="col-md-8">
+            
+                <a href="/course/details/@Model.ID">
+                    <h5 class="card-title">@Model.Title</h5>
+                </a>
+            <div>
+                @if(Model.Tags != null)
+                {
+                    @foreach (var tag in Model.Tags)
+                    {
+                        <span class="badge bg-danger"> @tag</span>
+                    }
+                }
+            </div>
+        </div>
+    </div>

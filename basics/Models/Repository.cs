@@ -8,9 +8,29 @@ namespace basics.Models
         {
             _courses = new List<Course>()
             {
-                new Course() {ID = 1 ,Title = "Metehan", Image="1.JPG"},
-                new Course() {ID = 2 ,Title = "Betüş", Image="2.JPG"},
-                new Course() {ID = 3 ,Title = "Askim", Image="3.JPG"}
+                new Course() {
+                    ID = 1 ,
+                    Title = "Metehan", 
+                    Image="1.JPG",
+                    Tags = new string[] {"aspnet","Web gelistirme"},
+                    isActivate = true,
+                    isHome = true,    
+                },
+
+                new Course() {
+                    ID = 2 ,Title = "Betüş", 
+                    Image="2.JPG",
+                    Tags = new string[] {"php","Web gelistirme"},
+                    isActivate = true,
+                    isHome = true,
+                    },
+
+                new Course() {
+                    ID = 3 ,Title = "Askim", 
+                    Image="3.JPG",
+                    isActivate = false,
+                    isHome = false,
+                    }
             };
         }
 

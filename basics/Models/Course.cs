@@ -7,7 +7,7 @@ namespace basics.Models
         
             public string? Image { get; set; }
 
-            public string? Tags { get; set; }
+            public string[]? Tags { get; set; }
         
             public bool isHome { get; set; }
             public bool isActivate { get; set; }
