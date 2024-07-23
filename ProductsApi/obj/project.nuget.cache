@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "g3ZVB42+V8cqdrjP1LXjPPhigq3OXzTNRAPmrPAo/xpHR7ZZRi9WjXJsRJ6nXDflujgG2jhFez/WWGa4W6KdSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Metehan Dündar\\Documents\\GitHub\\.Net-Course-Lessons\\ProductsApi\\ProductsApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Metehan Dündar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
