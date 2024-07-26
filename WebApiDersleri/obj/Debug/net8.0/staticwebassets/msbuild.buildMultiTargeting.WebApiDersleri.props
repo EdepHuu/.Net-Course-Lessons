@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebApiDersleri.props" />
+</Project>
