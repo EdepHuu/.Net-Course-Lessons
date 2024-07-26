@@ -1,6 +1,0 @@
-@WebApiDersleri_HostAddress = http://localhost:5219
-
-GET {{WebApiDersleri_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
